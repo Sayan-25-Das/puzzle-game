@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Image Puzzle Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Dynamic Image Puzzle Game</h1>
+  
+  <input type="file" id="image-upload" class="btn" accept="image/*">
+
+  <div id="controls">
+    <button onclick="init()" class="btn">Shuffle & Start</button>
+
+    <span>Moves: <span id="move-count">0</span></span>
+    <span id="message"></span>
+  </div>
+
+  <div id="puzzle-board"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
